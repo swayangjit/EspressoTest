@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
-
         Button btnSecond = (Button)findViewById(R.id.btn_go_second);
         btnSecond.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,4 +24,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void forceCrash(View view) {
+        throw new RuntimeException("This is a crash");
+    }
+
 }
