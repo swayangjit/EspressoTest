@@ -20,6 +20,10 @@
             android:name=".SecondActivity"
             android:label="@string/title_activity_second" >
         </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="b0fd0768cb1bc8ee7957098c608c2274f31fd30e" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
