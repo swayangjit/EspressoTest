@@ -19,7 +19,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.espresso"
+        applicationId "staging.diksha.app"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 1
