@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent it = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(it);
             }
+            
         });
     }
     public void forceCrash(View view) {
